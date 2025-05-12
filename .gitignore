@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Large data files
+fer2013.csv
+
+# Logs
+logs/
+*.log
+
+# Model files (except the final one)
+facial_emotion_model_enhanced.keras
+facial_emotion_model_improved.keras
+facial_emotion_model_improved_final.keras
+facial_emotion_model.h5
+best_model.keras
+
+# Temporary files
+fix_imports.py
+import_fix.py
+convert_to_notebook.py 
